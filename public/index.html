@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Retrieve Comfortaa font from Google Fonts -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Names Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    
+    <!-- Embed stylesheet to beautify components -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="generator">
+    <h1>Baby Name Generator</h1>
+
+    <!-- Input text fields for the user to enter the three words -->
+    Suggest baby names derived from the words <input type="text" id="a" placeholder="First Word">, <input type="text" id="b" placeholder="Second Word">, and <input type="text" id="c" placeholder="Third Word">
+    <button id="btnload">Generate Names</button>
+    
+    <!-- This will show our spinner while the API is loading the results -->
+    <div hidden id="spinner"></div>
+    </section>
+
+    <!-- Show results-->
+    <div id="babynames"></div>
+
+    <!-- Embed script.js for front-end logic-->
+    <script src="script.js"></script>
+</body>
+</html>
