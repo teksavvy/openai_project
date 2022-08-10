@@ -1,5 +1,5 @@
 
-## OpenAI - BabyName Generator
+## OpenAI - Baby Name Generator
 #### Description: 
 Generate names for your baby derived from three words
 
