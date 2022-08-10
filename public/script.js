@@ -25,7 +25,6 @@ async function getBabyNames(a,b,c) {
         const spinner = document.getElementById("spinner");
         spinner.removeAttribute('hidden');
         let url = '/babynames/first/' + a + "/second/" + b + "/third/" + c
-        console.log(url)
         const response = await fetch(url)
         .then(async(response) => {
             if (response.ok) {
