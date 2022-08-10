@@ -42,5 +42,5 @@ async function getBabyNames(a,b,c) {
             }
         }).catch(e => console.error('EXCEPTION: ', e))
 
-        }
+      }
 }
