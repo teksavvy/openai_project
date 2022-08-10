@@ -15,7 +15,6 @@ async function getBabyNames(a,b,c) {
     // Check input against the isCharacterALetter function
     if(isCharacterALetter(a) === false || isCharacterALetter(b) === false || isCharacterALetter(c) === false)
     {
-        console.log("why?")
         alert("Invalid input: Please enter words containing alphabets")
         return
     }
