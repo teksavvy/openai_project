@@ -36,7 +36,7 @@ $ # Navigate to the folder
 $ cd openai_project
 $ # install packages
 $ npm install
-$ # Make sure you check the OpenAI API Key in the .env file
+$ # Make sure you enter your OpenAI API Key in the .env file
 $ # Run the program
 $ npm run dev
 ```
