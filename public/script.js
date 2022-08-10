@@ -31,14 +31,14 @@ async function getBabyNames(a,b,c) {
              const data = await response.json().then(spinner.setAttribute('hidden', ''))
 
         // Organize the response and add spacing
-             let baby_names = data.choices[0].text.replace('\n\n', '').split('\n').join('<br>');
+             let baby_names = data.choices[0].text.replace('\n\n', '').split('\n').join('<br>')
         
         // Publish result 
              document.querySelector('#babynames').innerHTML = "<div id='result'>Result:</div>" + baby_names
     
             }
             else {
-                throw new Error(response.status + " Failed Fetch ");
+                throw new Error(response.status + " Failed Fetch ")
             }
         }).catch(e => console.error('EXCEPTION: ', e))
 
