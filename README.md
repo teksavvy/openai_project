@@ -1,7 +1,7 @@
 
 ## OpenAI - Baby Name Generator
 #### Description: 
-Generate names for your baby derived from three words
+Suggests names for your baby derived from three words that matter to you
 
 
 
